@@ -1,0 +1,5 @@
+To estimate the number of Voltorbs required to power Jubilife village, we need to consider the following factors:
+
+1. The power consumption of Jubilife village.
+2. The amount of electricity a single Voltorb can produce.
+3. The availability of Voltorbs in the Sacred Plaza.
