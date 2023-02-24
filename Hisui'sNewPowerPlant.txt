@@ -1,5 +1,65 @@
-To estimate the number of Voltorbs required to power Jubilife village, we need to consider the following factors:
+To estimate the number of Voltorbs required to power Jubilife city, we need to consider the following factors:
 
-1. The power consumption of Jubilife village.
+1. The power consumption of Jubilife city.
 2. The amount of electricity a single Voltorb can produce.
 3. The availability of Voltorbs in the Sacred Plaza.
+
+1. Power consumptiopn of Jubilife city:
+
+We are going to assume for this question that Jubilife city, Sinnoh's largest city, is most likely based on Sapporo, 
+Hokkaido's capital. From Bulbapedia, "[the Sinnoh region] is based on the northernmost major island of Japan, Hokkaido 
+(北海道, Hokkaidō, literally "Northern Sea Circuit")...Sapporo is the capital and largest city of Hokkaido. The Jubilife TV 
+building is a reference to the headquarters of Sapporo TV, the clock of the Pokétch Company [is based on] the 
+Sapporo Clock Tower, the oldest clock tower in Japan [that was] built in an American style."
+
+So, to understand Jubilife city's power consumption, we're going to compare it to the natiaonl average of Japan per capita.
+According to the International Energy Agency, the average electricity consumption per capita in Japan in 2021 was about 
+7.7 MWh/capita or 7,700 kWh/capita. Assuming that Sapporo's per capita electricity consumption is similar to the 
+national average, we can estimate the city's daily electricity consumption as follows:
+
+Daily electricity consumption = (7,700 kWh/year per capita) x (1.9 million people) / (365 days/year) = 401,315.07 kWh/day
+
+2. The amount of electricity a single Voltorb can produce:
+
+We know that Voltorbs are capable of producing electricity cleanly and efficiently. However, we don't know the exact 
+amount of electricity that a single Voltorb can produce. Therefore, we need to make some assumptions based on similar species 
+of Pokemon that can produce electricity, such as Pikachu or Electabuzz.
+
+According to the Pokedex, Pikachu can produce a maximum voltage of 100,000 volts. This is from their "Thunderbolt" move or 
+as it is known in Japan, "１０まんボルト 100,000 Volts". Assuming that Voltorb is equally capable of producing electricity, 
+we can estimate the energy output of a single Voltorb as:
+
+Energy output of a single Voltorb = 100,000 volts x 10.4 kg = 1,040,000 Joules
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Cites:
+1. https://bulbapedia.bulbagarden.net/wiki/Pok%C3%A9mon_world_in_relation_to_the_real_world#Sinnoh
+2. https://www.iea.org/countries/japan
+3. https://bulbapedia.bulbagarden.net/wiki/Thunderbolt_(move)
