@@ -1,25 +1,21 @@
 import Head from 'next/head'
-import { Inter } from 'next/font/google'
 import RoundedCard from '@/components/RoundedCard'
+//<a href="https://www.flaticon.com/free-icons/good" title="good icons">Good icons created by Freepik - Flaticon</a>
 
 export default function Home() {
   return (
-    <div>
+    <>
       <Head>
         <title>Code Foo Polling App</title>
         <meta name="description" content="Polling app: Sam Fisher" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/positive-vote.png" />
       </Head>
-      <body className='bg-midnight'>
-        <div className='max-w-4xl mx-auto px-2 border border-white'>
-          <header className='pt-20 mb-12'>
-            <div className='flex justify-center'>
-              <RoundedCard></RoundedCard>
-            </div>
-          </header>
+      <div className='bg-blurry bg-no-repeat bg-cover bg-midnight'>
+        <div className='flex justify-center min-h-screen items-center  border-white'>
+          <RoundedCard></RoundedCard>
         </div>
-      </body>
-    </div>
+      </div>
+    </>
   )
 }

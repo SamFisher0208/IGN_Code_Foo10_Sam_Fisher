@@ -12,6 +12,9 @@ module.exports = {
     extend: {
       colors: {
         'midnight': '#171923'
+      },
+      backgroundImage: {
+        'blurry': "url('/bbblurry.svg')"
       }
     },
     
