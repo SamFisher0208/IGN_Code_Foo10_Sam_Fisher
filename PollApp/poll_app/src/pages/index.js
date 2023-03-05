@@ -1,6 +1,13 @@
 import Head from 'next/head'
-import RoundedCard from '@/components/RoundedCard'
+import ProgressBar from '@/components/ProgressBar'
 //<a href="https://www.flaticon.com/free-icons/good" title="good icons">Good icons created by Freepik - Flaticon</a>
+
+const testData = [
+  { completed: 60 },
+  { completed: 30 },
+  { completed: 53 },
+];
+
 
 export default function Home() {
   return (
@@ -11,9 +18,17 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/positive-vote.png" />
       </Head>
-      <div className='bg-blurry bg-no-repeat bg-cover bg-midnight'>
-        <div className='flex justify-center min-h-screen items-center  border-white'>
-          <RoundedCard></RoundedCard>
+      <div className='bg-midnight'>
+        <div className='flex justify-center min-h-screen items-center'>
+          <div className='rounded-lg px-96 py-28 bg-midnight-md/30 flex flex-col basis-2/3'>
+            <div>
+              {testData.map((item, idx) => (
+                <ProgressBar key={idx} completed={item.completed} />
+              ))}
+            </div>
+          </div>
+          
+          
         </div>
       </div>
     </>

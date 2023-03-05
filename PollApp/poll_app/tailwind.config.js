@@ -11,10 +11,15 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        'midnight': '#171923'
+        'midnight': '#171923',
+        'midnight-light': '#0042da',
+        'midnight-md': '#2D3748'
+
       },
       backgroundImage: {
-        'blurry': "url('/bbblurry.svg')"
+        'blurry': "url('/bbblurry.svg')",
+        'blurry-sm': "url('/bbblurry_sm.svg')",
+        'blurry-2': "url('/bbblurry_two.svg')"
       }
     },
     
