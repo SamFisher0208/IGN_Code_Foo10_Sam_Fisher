@@ -21,15 +21,13 @@ export default function Home() {
       </Head>
       <div className='bg-midnight'>
         <div className='flex justify-center min-h-screen items-center gap-2'>
-          <div className='rounded-lg px-96 py-28 bg-midnight-md/30 flex flex-col basis-2/3'>
+          {/* <div className='rounded-lg px-96 py-28 bg-midnight-md/30 flex flex-col basis-2/3'>
             <div>
               {testData.map((item, idx) => (
                 <ProgressBar key={idx} completed={item.completed} />
               ))}
             </div>
-               
-
-          </div>
+          </div> */}
 
           <div className='rounded-lg px-96 py-28 bg-midnight-md/30'>
               <PollingComponent></PollingComponent>

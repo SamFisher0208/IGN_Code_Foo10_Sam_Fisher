@@ -1,4 +1,5 @@
 import { useState } from "react";
+import ProgressBar from '@/components/ProgressBar';
 
 const PollingComponent = () => {
   const [selectedOption, setSelectedOption] = useState("");
@@ -56,12 +57,14 @@ const PollingComponent = () => {
         
         <div className="bg-gray-100 p-4 rounded-lg">
           <h2 className="text-lg font-bold mb-2">Results:</h2>
-          <p className="mb-2">
-            Option 1: <span className="font-bold">{pollResults.option1}</span>
-          </p>
-          <p>
-            Option 2: <span className="font-bold">{pollResults.option2}</span>
-          </p>
+          <div className="mb-2">
+            {/* Option 1: <span className="font-bold">{pollResults.option1}</span> */}
+            Option 1: <ProgressBar className="font-bold" pollResults={pollResults.option1} />
+          </div>
+          <div>
+            {/* Option 2: <span className="font-bold">{pollResults.option2}</span> */}
+            Option 2: <ProgressBar className="font-bold" pollResults={pollResults.option2} />
+          </div>
         </div>
       </div>
     </div>
