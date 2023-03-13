@@ -20,21 +20,11 @@ export default function Home() {
         <link rel="icon" href="/positive-vote.png" />
       </Head>
       <div className='bg-midnight'>
-        <div className='flex justify-center min-h-screen items-center gap-2'>
-          {/* <div className='rounded-lg px-96 py-28 bg-midnight-md/30 flex flex-col basis-2/3'>
-            <div>
-              {testData.map((item, idx) => (
-                <ProgressBar key={idx} completed={item.completed} />
-              ))}
-            </div>
-          </div> */}
-
-          <div className='rounded-lg px-96 py-28 bg-midnight-md/30'>
+        <div className='flex justify-center min-h-screen items-center'>
+          <div className='rounded-lg px-40 py-28 bg-midnight-md/30'>
               <PollingComponent></PollingComponent>
             </div> 
         </div>
-        
-
       </div>
     </>
   )
