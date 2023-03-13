@@ -20,7 +20,7 @@ export default function PollingComponent() {
   return (
     <div className="flex flex-col items-start gap-8">
       <form onSubmit={handlePollSubmit} className="w-full max-w-lg">
-        <div className="flex flex-col items-center mb-4 gap-4">
+        <div className="flex flex-col items-center mb-4 gap-3">
           <label htmlFor="option1">
             <input
               type="radio"
