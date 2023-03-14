@@ -1,0 +1,23 @@
+Dear IGN Team,
+
+I am excited to apply for the IGN Code Foo Program, as I am passionate about gaming and front-end and back-end web development. As a Computer Science major at the University of North Texas, I have acquired a solid foundation in programming languages, algorithms, 
+and data structures. But it was not until recently that I was introduced to web development in my senior Capstone class that I found I wanted to pivot my career to it. Since the beginning of this semester (Spring 23) it has been extrememly rewarding for me to
+learn front-end and back-end web dev skills. I have a particular fondness for front-end becuase, aside from being a gamer in my spare time, I am also a designer and illustrator. It has been extremely fun to design our project's front-end and learn new tech like Next.js 
+and React. I believe that this program would provide me with an excellent opportunity to apply and improve my skills while working with an industry-leading team.
+
+My interest in gaming, and IGN has been a constant source of inspiration and knowledge for me. I have followed IGN for years, and I am impressed by the quality of their content and the passion they have for the gaming industry. IGN's commitment to providing 
+in-depth coverage and analysis of the latest games and technology is what drew me to apply for the Code Foo Program.
+
+My technical skills have been honed through several engineering projects that I have undertaken, including developing a wave-based survival game using the LARC engine, a barebones C++ engine, designing an efficient route search algorithm for airline routes, and 
+creating a monster encounter game using looping algorithms and functions in C++. I have also worked on a personal project, programming a Discord bot in Python to respond to user commands and post random Magic the Gathering card images.
+
+Additionally, my experience in IT support and administration has given me a strong foundation in customer service and organizational skills. As a Student Assistant at UNT Media Library, I interfaced with customers in person to troubleshoot console and 
+PC games and co-hosted monthly gaming events. As an IT Technician at UNT Library Technologies, I communicated with customers to diagnose and solve computer hardware and software issues. Finally, as an Administration Specialist at UNT CLEAR, I managed the 
+departmental budget, coordinated department events, and ensured efficient daily office operations.
+
+If selected for the IGN Code Foo Program, I am committed to working hard and learning as much as possible from the IGN team. I am confident that my technical skills, passion for gaming and web development, and customer service experience make me an ideal 
+candidate for this program. I am excited about the opportunity to work with IGN, and I look forward to hearing back from you soon.
+
+Thank you for your time and consideration.
+
+Sam Fisher
