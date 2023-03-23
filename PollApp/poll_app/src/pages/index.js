@@ -1,13 +1,6 @@
 import Head from 'next/head'
-import ProgressBar from '@/components/ProgressBar'
 import PollingComponent from '@/components/Poll';
 //<a href="https://www.flaticon.com/free-icons/good" title="good icons">Good icons created by Freepik - Flaticon</a>
-
-const testData = [
-  { completed: 60 },
-  { completed: 30 },
-  { completed: 53 },
-];
 
 
 export default function Home() {
@@ -23,7 +16,7 @@ export default function Home() {
         <div className='flex justify-center min-h-screen items-center'>
           <div className='rounded-lg px-40 py-28 bg-midnight-md/30'>
               <PollingComponent></PollingComponent>
-            </div> 
+          </div> 
         </div>
       </div>
     </>
