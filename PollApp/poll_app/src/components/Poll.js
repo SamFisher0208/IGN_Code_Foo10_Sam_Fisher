@@ -21,7 +21,7 @@ export default function PollingComponent() {
     <div className="flex flex-col items-start gap-8">
       <form onSubmit={handlePollSubmit} className="w-full">
         <div className="flex flex-col items-center mb-4 gap-3">
-        <div className='text-white text-3xl text-center'>Which first gen starter is your favorite?</div>
+        <div className='text-white text-3xl text-center'>Which first gen starter is the best?</div>
           <label htmlFor="bulbasaur">
             <input
               type="radio"
@@ -71,13 +71,13 @@ export default function PollingComponent() {
       <div className="bg-gray-100 py-6 pl-8 pr-12 rounded-lg flex flex-col w-full">
         <h2 className="text-lg font-bold mb-2">Results:</h2>
         <div className="">
-          Bulbasaur: <ProgressBar pollResults={pollResults.bulbasaur} />
+          Bulbasaur: <ProgressBar image={'/bulbasaur.png'} pollResults={pollResults.bulbasaur} />
         </div>
         <div>
-          Charmander: <ProgressBar pollResults={pollResults.charmander} />
+          Charmander: <ProgressBar image={'/charmander.png'} pollResults={pollResults.charmander} />
         </div>
         <div>
-          Squirtle: <ProgressBar pollResults={pollResults.squirtle} />
+          Squirtle: <ProgressBar image={'/squirtle.png'} pollResults={pollResults.squirtle} />
         </div>
       </div>
     </div>

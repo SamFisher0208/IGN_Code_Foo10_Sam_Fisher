@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import PollingComponent from '@/components/Poll';
 //<a href="https://www.flaticon.com/free-icons/good" title="good icons">Good icons created by Freepik - Flaticon</a>
+//<a href="https://www.flaticon.com/free-icons/pokemon" title="pokemon icons">Pokemon icons created by Roundicons Freebies - Flaticon</a>
 
 
 export default function Home() {
